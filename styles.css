@@ -1,0 +1,177 @@
+bpdy{
+  font-family: 'Montserrat';
+}
+
+#title{
+  background-color: #ff4c68;
+  padding : 3% 15%;
+}
+
+
+h1{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color : white;
+}
+
+/* Navigation Bar */
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+.navlink{
+  font-size: 1.25rem;
+  font-family: 'Montserrat-Light';
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+/* Buttons */
+.apple{
+  margin: 5% 3% 5% 0;
+}
+
+
+/* Images */
+
+.title-image{
+  width: 60%;
+  transform:rotate(35deg);
+  position: relative;
+
+
+}
+
+
+/* Features section */
+
+#features{
+
+  padding : 7% 15%;
+  background-color:#fff;
+  position: relative;
+
+}
+.feat{
+  text-align: center;
+  padding: 5%;
+
+}
+
+h3{
+  font-weight: bold;
+}
+p{
+  color: #8f8f8f;
+}
+
+.ico{
+  color : #ef8172;
+  margin-bottom: 1rem;
+
+}
+.ico:hover{
+  color: #ff4c68;
+}
+
+
+/* Testimonials Sections */
+
+#testimonials{
+  background-color: #ff4c68;
+
+  text-align: center;
+  color: #fff;
+}
+.testimonials-image{
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+
+}
+/* Press Section */
+
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 4%;
+}
+.press-image{
+  width: 13%;
+  margin: 20px;
+}
+
+/* pricing section*/
+#pricing{
+
+  padding: 100px;
+  text-align: center;
+}
+
+.padi{
+  padding: 3% 2%;
+}
+
+/* media queries */
+
+@media (max-width:1028px) {
+
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+
+
+/* cta section */
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+
+
+}
+
+h3{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: bold;
+  color : white;
+  font-size:3.5rem;
+  text-align: center;
+  line-height: 1.5;
+
+
+}
+
+.apple2{
+  margin: 0 3% 5% 0;
+}
+
+/* Footer Section */
+
+#footer{
+  padding: 3% 10%;
+  text-align: center;
+}
+
+.Sc{
+  margin: 20px 10px;
+
+}
